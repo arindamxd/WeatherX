@@ -57,12 +57,14 @@ class SearchActivity : AppCompatActivity() {
             if (!Networking.isNetworkConnected(this)) {
                 toggleProgress(false)
                 showToast("Internet connection not found.")
+                return@setOnClickListener
             }
 
             val cityName: String = city_name.text.toString()
             if (cityName.isBlank()) {
                 toggleProgress(false)
                 showToast("Please enter a city name.")
+                return@setOnClickListener
             }
 
             viewModel.search(cityName, API_KEY) { error ->
