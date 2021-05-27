@@ -18,7 +18,8 @@ across most Android devices, with backward compatibility to Android 4.4 (API lev
 
 - Ease of use
 - Allow users to search weather for a city of their choice
-- Allow users to create/manage a list of "favourite" destinations- Network unavailability handled
+- Allow users to create/manage a list of "favourite" destinations
+- Network unavailability handled
 - Offline cache
 - Consistency across devices
 
