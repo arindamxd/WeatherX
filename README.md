@@ -4,7 +4,7 @@ A mobile app that helps with searching current weather for a given city.
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/Apache-2.0)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 
-<p align="left">
+<p align="center">
   <img width="25%" src="https://github.com/arindamxd/WeatherX/raw/main/screenshots/search_cached.png?raw=true">
   <img width="25%" src="https://github.com/arindamxd/WeatherX/raw/main/screenshots/search_result.png?raw=true">
   <img width="25%" src="https://github.com/arindamxd/WeatherX/raw/main/screenshots/manage_favourite.png?raw=true">
