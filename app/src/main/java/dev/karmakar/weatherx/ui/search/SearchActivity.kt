@@ -27,7 +27,7 @@ class SearchActivity : AppCompatActivity() {
     companion object {
         const val TAG = "WeatherX"
         const val BASE_URL = "https://api.openweathermap.org/"
-        const val API_KEY = "0183dfb6230ac0585e28aef58181a955"
+        const val API_KEY = "<add your api key>"
         const val DATABASE_NAME = "weather-x-db"
     }
 
