@@ -2,7 +2,6 @@ package dev.karmakar.weatherx.ui.search
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.Gravity
 import android.view.View
 import android.widget.Toast
@@ -43,7 +42,6 @@ class SearchActivity : AppCompatActivity() {
         viewModel.observeSearch().observe(this, { weather ->
             weather?.let {
                 toggleProgress(false)
-                Log.e(TAG, "onCreate: $it")
                 recycler_view.adapter = SharedAdapter(listOf(it)) { weatherId ->
                     viewModel.toggleSaved(weatherId)
                 }
