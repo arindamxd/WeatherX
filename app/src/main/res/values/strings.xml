@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WeatherX</string>
+
+    <string name="enter_your_city_name_to_check_weather">Enter your city name to check weather</string>
+    <string name="mange_your_favorite_destinations">Mange your favorite destinations</string>
+    <string name="place">Place</string>
+    <string name="temp">20°</string>
+    <string name="celsius">c</string>
+    <string name="description">Description</string>
+    <string name="feels_like">Feels like 10°C</string>
+    <string name="humidity">Humidity %</string>
+    <string name="cloudiness">Cloudiness %</string>
+    <string name="wind_speed">Wind speed 3 meter/sec</string>
+    <string name="last_updated">Last updated 3 hours ago</string>
+</resources>
