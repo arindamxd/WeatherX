@@ -81,12 +81,10 @@ class SearchActivity : AppCompatActivity() {
 
     private fun initViewModel(): SharedViewModel {
         val model: SharedViewModel by viewModels {
-            ViewModelFactory(
-                Repository(
-                    DatabaseService.getInstance(this),
-                    Networking.create(BASE_URL)
-                )
-            )
+            ViewModelFactory(Repository(
+                DatabaseService.getInstance(this),
+                Networking.create(BASE_URL)
+            ))
         }
         return model
     }
