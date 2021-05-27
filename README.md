@@ -12,9 +12,9 @@ A mobile app that helps with searching current weather for a given city.
 
 ## Overview
 
-WeatherX is a simple Android App, that allows user to search weather for a city of their choice
-and manage a list of favourite destinations. It provides an elegant UI/UX surface that works
-across most Android devices, with backward compatibility to Android 4.4 (API level 19).
+WeatherX is a simple Android App, that allows user to search weather for a city of their 
+choice and manage a list of favourite destinations. It provides an elegant UI/UX surface 
+that works across most Android devices, with backward compatibility to Android 4.4 (API level 19).
 
 - Ease of use
 - Allow users to search weather for a city of their choice
@@ -24,7 +24,9 @@ across most Android devices, with backward compatibility to Android 4.4 (API lev
 - Consistency across devices
 
 Lastly, WeatherX makes heavy usage of reactive MVVM design throughout the app. It uses
-RxAndroid, Retrofit, Room, LiveData, etc. Both the screens (Search and Favourite) have one ViewModel that consumes user interactions.
+[openweathermap.org's API](https://openweathermap.org/), RxAndroid, Retrofit, Room, 
+LiveData, etc. Both the screens (Search and Favourite) have one ViewModel that consumes 
+user interactions.
 
 ## Build
 
